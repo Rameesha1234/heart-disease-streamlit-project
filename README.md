@@ -135,9 +135,12 @@ You'll see:
 
 ---
 
-## 📌 External Links
+## 📎 External Links
 
-* 📜 **Kaggle Notebook:** [Click here](https://www.kaggle.com/code/Rameesha1234/heart-disease-prediction)
+- 🧾 **Kaggle Notebook (Pending Public):** [Draft Link](https://www.kaggle.com/code/rameesha1234/heart-jupyter-notebook)
+
+🔒 **Note:** This notebook is currently private due to Kaggle phone verification issues. All outputs and code are available in this GitHub repo. Notebook can be shared upon request.
+
 
 ---
 
