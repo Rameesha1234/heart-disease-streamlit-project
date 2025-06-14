@@ -46,3 +46,92 @@ import matplotlib.pyplot as plt
 sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title("Correlation Heatmap")
 plt.show()
+
+
+---
+
+### 🔹 Countplot Code
+```markdown
+## 📊 Countplot Code
+
+```python
+sns.countplot(x='sex', hue='target', data=df)
+plt.title("Heart Disease by Gender")
+plt.show()
+
+
+---
+
+### 🔹 Model Training Code
+```markdown
+## 🧠 Model Training Code
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+
+# Create and train the model
+model = RandomForestClassifier(random_state=42)
+model.fit(X_train, y_train)
+
+
+---
+
+### 🔹 How to Run the App Locally
+```markdown
+## 🚀 How to Run the App Locally
+
+Follow these steps to run the Streamlit app on your computer:
+
+### 1. Install Required Packages
+
+Make sure you have Python installed. Then open terminal or command prompt and run:
+
+```bash
+pip install streamlit pandas matplotlib seaborn scikit-learn joblib
+
+
+---
+
+## 📂 Files Included
+
+| File              | Description                                |
+|-------------------|--------------------------------------------|
+| `heart.csv`       | Input dataset                              |
+| `project.ipynb`   | Full EDA, preprocessing, model code        |
+| `app.py`          | Streamlit frontend code                    |
+| `heart_model.pkl` | Trained Random Forest model                |
+| `scaler.pkl`      | StandardScaler for input features          |
+| `pairplot.png`    | Auto-generated EDA image                   |
+| `Viva_Notes.txt`  | Viva questions and answers                 |
+| `README.md`       | This readme file                           |
+
+---
+
+## 📸 App Preview Features
+
+- 📊 EDA Visualizations (heatmap, boxplot, pairplot)
+- 📋 Data summary table
+- 🧠 Real-time prediction form (13 inputs)
+- ✅ Result shown as “No Heart Disease” or “Heart Disease Detected”
+- 📝 Final insight/conclusion section
+
+---
+
+## 📎 External Links
+
+- 🧾 **Kaggle Notebook:** [Click here](https://www.kaggle.com/code/Rameesha1234/heart-disease-prediction)  
+  
+
+---
+
+## 👤 Author
+
+- **Name:** Rameesha  
+- **University:** PUCIT  
+- **Course:** Introduction to Data Science – Final Term Project  
+- **GitHub:** [https://github.com/Rameesha1234/heart-disease-streamlit-project](https://github.com/Rameesha1234/heart-disease-streamlit-project)
+
+---
+
+
+
